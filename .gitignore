@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables
+.env
+frontend/.env
+*.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large AI model files
+models/*
+!models/README.md
+!models/.gitkeep
+
+# Tools & External Binaries (FFmpeg/FFprobe)
+tools/*
+!tools/.gitkeep
+!tools/README.md
+
+# Generated Outputs
+generated/videos/*
+!generated/videos/.gitkeep
+generated/audio/*
+!generated/audio/.gitkeep
+generated/images/*
+!generated/images/.gitkeep
+generated/subtitles/*
+!generated/subtitles/.gitkeep
+generated/temp/*
+!generated/temp/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
